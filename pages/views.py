@@ -33,7 +33,7 @@ def contact(request):
         otp = x
         print(otp)
 
-        sms = 'http://mobicomm.dove-sms.com/mobicomm//submitsms.jsp?user=MOSLTD&key=de5a73a623XX&mobile='+mobile_number+'&message=The OTP for your plasma donation is '+str(otp)+'&senderid=INFOSM&accusage=1'
+        sms = [SMS API]
         receive = requests.get(sms)                
 
         contact = Contact1(name=name, last_name=last_name, mobile_number=mobile_number, Blood_type=Blood_type, City=City,
