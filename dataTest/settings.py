@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'dataTest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Plasma',
-        'USER': 'Avitest',
-        'PASSWORD': '9167199744',
+        'NAME': 'Name',
+        'USER': 'Name',
+        'PASSWORD': 'Name',
         'HOST': 'localhost' 
     }
 }
